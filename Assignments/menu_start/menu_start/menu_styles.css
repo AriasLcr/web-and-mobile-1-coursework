@@ -1,0 +1,37 @@
+
+body{
+    font-family: 'Comic sans ms';
+    margin: 50px;
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+h1{
+    background-color: lightgray;
+    padding: 20px;
+}
+
+h2:hover{
+    background-color: darkgoldenrod;
+}
+
+h3{
+    font-variant: small-caps;
+}
+
+h3:hover{
+    color:chocolate;
+}
+
+#title_text{
+    color: orange;
+}
+
+#hours{
+    color:gray;
+}
+
+.new_item{
+    color: red;
+    font-variant: normal;
+}

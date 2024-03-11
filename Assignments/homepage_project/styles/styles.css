@@ -1,0 +1,81 @@
+/* Set the background color for the entire page */
+body {
+    background-color: #c0f0d8; 
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the headings */
+h1, h2 {
+    display: flex;
+    color: #007f5f; 
+    justify-content: center;
+}
+
+#introParagraph{
+    display: flex;
+    justify-content: center;
+}
+
+/* Style paragraphs and lists */
+p, ul, ol {
+    color: #333; 
+}
+
+/* Style links */
+a {
+    color: #007f5f;
+}
+
+/* Style table borders */
+table, th, td {
+    border: 1px solid #007f5f; 
+}
+
+/* Set padding and margin for sections */
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    /* animation duration */
+    transition: 0.3s; 
+}
+
+section:hover, section > ol > li:hover, section > p:hover{
+    background-color: #76dabf;
+}
+
+/* Apply Flexbox layout to the container */
+.flex-container {
+    display: flex;
+    justify-content: stretch;
+    flex-wrap: wrap; 
+
+}
+  
+/* Style each section (box) */
+.flex-container-works section {
+    flex-grow: 1; 
+    flex-basis: calc(33.33% - 20px); 
+    margin-right: 20px; 
+    box-sizing: border-box; 
+}
+
+
+.flex-container-works {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+}
+  
+/* Style each section (box) */
+.flex-container-works section {
+    flex-grow: 1; 
+    flex-basis: calc(33.33% - 20px); 
+    margin-right: 20px; 
+    box-sizing: border-box; 
+}

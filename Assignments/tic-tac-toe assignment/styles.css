@@ -1,0 +1,35 @@
+body {
+   font-family: Roboto, Helvetica, sans-serif;
+   text-align: center;
+
+}
+
+.x {
+   color: red;
+}
+
+.o {
+   color: blue;
+ }
+ 
+#board {
+   font: 85px arial, sans-serif;
+   margin: 3px;
+   
+   /* Your solution goes here */      
+   display: grid;
+   grid-template-rows: 100px 100px 100px;
+   grid-template-columns: 100px 100px 100px;
+   grid-template-areas: 
+      "x o div"
+      "div x div"
+      "o div x";
+   justify-content:center;
+   column-gap: 10px;
+   row-gap: 10px;
+}
+
+#board > div {
+   border: 1px solid LightSkyBlue;
+   text-align: center;
+}

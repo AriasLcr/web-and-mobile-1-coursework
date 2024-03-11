@@ -1,0 +1,23 @@
+.animateable{
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+    padding: 20px;
+    background-color: rgb(126, 150, 210);
+
+    font-size: 20px;
+
+    transition: all 0.4s;
+}
+.animateable:hover{
+    background-color: rgb(12, 37, 100);
+    width: 150px;
+}
+
+
+@container (min-width: 150px){
+    .animateable:hover{
+        color: white;
+        content: "Hello there";
+    }
+}
